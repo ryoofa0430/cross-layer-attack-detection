@@ -21,7 +21,7 @@ Experiments were conducted on ROS 2 Humble with Fast DDS 2.6.9 over IEEE 802.11a
 The attack code is released here to highlight how easily such vulnerabilities can be reproduced in practice, even against real robot systems.
 
 # 💡 How the Cross-Layer Attack Chain Works
-## Step 1. Multicast Join & SPDP Reception
+## Step 1: Multicast Join & SPDP Reception
 The script consists of three logical stages: (1) joining the DDS discovery multicast, (2) capturing discovery packets, and (3) parsing RTPS to extract unicast locators.
 ### 1. Joining the Multicast Group
 > - Create a UDP socket and call IP_ADD_MEMBERSHIP to join the standard ROS 2 discovery multicast group so that SPDP announcements reach the host.
@@ -54,7 +54,7 @@ The script consists of three logical stages: (1) joining the DDS discovery multi
 > ```
 
 
-## Step 2. Cross-Layer Attack Execution (MITM / DoS / Selective Forwarding)
+## Step 2: Cross-Layer Attack Execution (MITM / DoS / Selective Forwarding)
 > **Purpose.**
 > 
 >This section documents a controlled feasibility demonstration conducted in a closed testbed to evaluate detection and resilience of ROS 2/DDS-RTPS systems. The procedures are intended solely for defensive research under proper authorization.
