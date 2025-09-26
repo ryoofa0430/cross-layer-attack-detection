@@ -5,7 +5,7 @@
   <img alt="Scapy" src="https://img.shields.io/badge/Scapy-Packet%20Crafting-orange?style=for-the-badge">
 </p>
 
-## Paper Summary
+## 📝 Paper Summary
 ROS 2 protects communication data through SROS 2, but the unauthenticated discovery phase remains a security blind spot.
 During the discovery phase, metadata such as IP addresses, ports, and participant identifiers are exposed and can be leveraged for ARP-based snooping, spoofing, and cross-layer attacks.
 
