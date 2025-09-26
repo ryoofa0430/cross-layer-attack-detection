@@ -9,7 +9,7 @@
 ROS 2 protects communication data through SROS 2, but the unauthenticated discovery phase remains a security blind spot.
 During the discovery phase, metadata such as IP addresses, ports, and participant identifiers are exposed and can be leveraged for ARP-based snooping, spoofing, and cross-layer attacks.
 
-We design and implement cross-layer attack chains that manipulate lower network layers by leveraging these discovery-phase weaknesses.  
+We design and implement cross-layer attack chains that manipulate lower network layers by leveraging these discovery-phase weaknesses, and demonstrate their feasibility through experiments.
 In real autonomous robot scenarios, we demonstrate that:
 
 - **DoS attacks**: Even a short DoS lasting ~18 seconds can cause localization failure and induce a *kidnapped-robot* state.  
