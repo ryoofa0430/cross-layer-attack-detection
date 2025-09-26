@@ -139,3 +139,8 @@ This two-step process differentiates transient delay from deliberate manipulatio
 
 ## 📢 Notice
 This project is currently compatible with ROS 2 Humble using Fast DDS 2.6.9. 
+
+### Contact & Collaboration
+If you have any issues or questions about using this, please feel free to contact us anytime.
+
+**Email**: [ryuhyunho@dgist.ac.kr](mailto:ryuhyunho@dgist.ac.kr)  
