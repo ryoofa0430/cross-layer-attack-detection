@@ -55,7 +55,7 @@ The script consists of three logical stages: (1) joining the DDS discovery multi
 
 
 ## Step 2: Cross-Layer Attack Execution (MITM / DoS / Selective Forwarding)
-> **Purpose.**
+> ❗ **Purpose.**
 > 
 >This section documents a controlled feasibility demonstration conducted in a closed testbed to evaluate detection and resilience of ROS 2/DDS-RTPS systems. The procedures are intended solely for defensive research under proper authorization.
 ### 1. ARP Poisoning
