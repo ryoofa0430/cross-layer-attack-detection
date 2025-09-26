@@ -20,7 +20,7 @@ To counter these threats, we propose a detection mechanism that leverages QoS ev
 Experiments were conducted on ROS 2 Humble with Fast DDS 2.6.9 over IEEE 802.11ac wireless links.
 The attack code is released here to highlight how easily such vulnerabilities can be reproduced in practice, even against real robot systems.
 
-#💡 How the Cross-Layer Attack Chain Works
+# 💡 How the Cross-Layer Attack Chain Works
 ## Step 1. Multicast Join & SPDP Reception
 The script consists of three logical stages: (1) joining the DDS discovery multicast, (2) capturing discovery packets, and (3) parsing RTPS to extract unicast locators.
 ### 1. Joining the Multicast Group
