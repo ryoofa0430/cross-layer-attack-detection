@@ -16,7 +16,6 @@ In real autonomous robot scenarios, we demonstrate that:
 - **Selective forwarding attacks**: Dropping specific control packets can covertly block robot commands, leading to unsafe actuation, collisions, and potential physical damage.  
 
 To counter these threats, we propose a detection mechanism that leverages QoS events, specifically ROS 2 liveliness events, to raise alerts during abnormal conditions and enable timely countermeasures.
-
 Experiments were conducted on ROS 2 Humble with Fast DDS 2.6.9 over IEEE 802.11ac wireless links.
 The attack code is released here to highlight how easily such vulnerabilities can be reproduced in practice, even against real robot systems.
 
